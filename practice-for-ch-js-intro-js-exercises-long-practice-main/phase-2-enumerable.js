@@ -28,5 +28,5 @@ Array.prototype.myMap = function(callback) {
 // will determine how the el is mapped into the new arr
 
 console.log([1,2,3].myMap(function(el) {
-    el * 2
+    return el * 2
 }));
